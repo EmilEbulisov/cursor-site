@@ -1,8 +1,22 @@
 body{
-    background-color: #4c4c50;
-    color: #fff;
-
+    font-family: /*Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif*/Verdana, sans-serif;
 }
+.light-theme {
+    color: #333333;
+    background-color: #eae9f2;
+  }
+  .light-theme .page-footer {
+    background-color: #6653d9;
+    color: #ffffff;
+  }  
+.dark-theme {
+    color: #f2f2f2;
+    background-color: #17161a;
+  }
+  .dark-theme .page-footer {
+    background-color: #0a0910;
+    color: #f2f2f2;
+  }
 .download{
     padding: 5px 20px;
     text-transform: uppercase;
@@ -36,7 +50,7 @@ a {
     background-color: #0000ff;
 }
 
-.site-header{
+.page-header{
     min-width: 400px;
     height: 186px;
     margin-bottom: 70px;
@@ -53,14 +67,17 @@ a {
 
 }
   
-.site-footer {
+.page-footer {
     min-width: 550px;
-    background-color: #262021 ;
-    color: #ffffff;
   } 
 
-  .site-footer p {
+  .page-footer p {
     display: inline-block;
     vertical-align: middle;
     padding: 0 20px;
   }
+.fon
+{ 
+    line-height: normal;
+    background-color: #262021;
+}
