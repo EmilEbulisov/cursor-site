@@ -81,7 +81,7 @@ a {
     line-height: normal;
     background-color: #262021;
 }
-.theme{
+.theme-button{
     padding: 5px 5px;
     text-transform: uppercase;
     color: #f2f2f2;
@@ -92,6 +92,6 @@ a {
     transition: .3s;
     border-radius: 10pt 10pt;
 }   
-.theme:hover {
+.theme-button:hover {
     background-color: #0000ff;
 }
