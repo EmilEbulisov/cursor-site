@@ -104,7 +104,7 @@ a {
   /* фиксированное позиционирование */
   position: fixed;
   /* цвет фона */
-  background-color: #673ab7;
+  background-color: #847462;
   /* расстояние от правого края окна браузера */
   right: 20px;
   /* расстояние от нижнего края окна браузера */
@@ -142,7 +142,7 @@ a {
 
 @media (hover: hover) and (pointer: fine) {
   .btn-up:hover {
-    background-color: #512da8; /* цвет заднего фона при наведении */
+    background-color: #a08f7b; /* цвет заднего фона при наведении */
   }
 }
 .theme{
