@@ -6,9 +6,10 @@ body{
     background-color: #eae9f2;
   }
   .light-theme .page-footer {
-    background-color: #6653d9;
+    background-color: #262021;
     color: #ffffff;
   }  
+
 .dark-theme {
     color: #f2f2f2;
     background-color: #17161a;
@@ -17,7 +18,11 @@ body{
     background-color: #0a0910;
     color: #f2f2f2;
   }
+
 .download{
+  position: relative;
+  left: 45%;
+
     padding: 5px 20px;
     text-transform: uppercase;
     color: #fff;
@@ -79,7 +84,7 @@ a {
 .fon
 { 
     line-height: normal;
-    background-color: #262021;
+    background-color: #847462;
 }
 .theme-button{
   padding: 5px 5px;
@@ -87,13 +92,13 @@ a {
   color: #f2f2f2;
   font-size: 15px;
   background-color: #0a0910;;
-  border: 2px solid #0000ff;
+  border: 2px solid #847462;
   transform: matrix3d(1, 0, 0, 0, 0,1, 0, 0, 0, 0,1, 0, 0, 0, 0, 1);
   transition: .3s;
   border-radius: 10pt 10pt;
 }   
 .theme-button:hover {
-  background-color: #0000ff;
+  background-color: #847462;
 }
 .btn-up {
   /* фиксированное позиционирование */
@@ -139,4 +144,21 @@ a {
   .btn-up:hover {
     background-color: #512da8; /* цвет заднего фона при наведении */
   }
+}
+.theme{
+  padding: 5px 5px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-size: 15px;
+  background-color: #0a0910;;
+  border: 2px solid #847462;
+  transform: matrix3d(1, 0, 0, 0, 0,1, 0, 0, 0, 0,1, 0, 0, 0, 0, 1);
+  transition: .3s;
+  border-radius: 10pt 10pt;
+}   
+.theme:hover {
+  background-color: #847462;
+}
+.hy{
+  text-align: center;
 }
